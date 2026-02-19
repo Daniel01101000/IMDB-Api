@@ -86,7 +86,7 @@ export default function App() {
   const moviesToShow = movies.length > 0 ? movies : featured;
 
   return (
-    <Router>
+    <Router basename="/IMDB-Api/" >
       <div className="app-container">
         <Header
           setMovies={setMovies}
