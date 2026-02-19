@@ -1,0 +1,101 @@
+/* Fondo gris claro */
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+/* Caja blanca */
+.register-box {
+  background: #fff;
+  padding: 24px 32px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 360px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.register-box h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+/* Labels */
+.register-box label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+/* Inputs */
+.register-box input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #a6a6a6;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.register-box input:focus {
+  border-color: #e6b800;
+  box-shadow: 0 0 3px 2px rgba(255, 204, 0, 0.3);
+  outline: none;
+}
+
+/* Botón amarillo */
+.register-box button {
+  width: 100%;
+  background-color: #f5c518;
+  border: 1px solid #a88734;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background-color: #ddb909;
+}
+
+/* Mensajes */
+.register-box p.message {
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+  color: red;
+}
+
+/* Enlace */
+.register-box a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+.register-box .login-link {
+  margin-top: 16px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.register-logo {
+    width: 100px;
+    height: 50px;
+}
+
+.register-box {
+    color: #000;
+}

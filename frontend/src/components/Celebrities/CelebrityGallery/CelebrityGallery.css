@@ -1,0 +1,42 @@
+.celebrity-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: 150px;
+  gap: 8px;
+  width: 100%;
+  max-width: 1000px;
+  height: 450px; /* rectangular */
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.celebrity-gallery-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.celebrity-gallery-photo:hover {
+  transform: scale(1.05);
+}
+
+.celebrity-gallery-photo.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.h2-fotos {
+  font-size: 2rem;
+  margin-left: 7vw;
+}
+
+.l-yellow {
+  position: relative;
+  margin: 15px;
+  color: #f5c518;
+  font-size: 2rem;
+}
